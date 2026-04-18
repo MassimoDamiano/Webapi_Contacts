@@ -1,0 +1,6 @@
+@AO1_DamianoMassimo_HostAddress = http://localhost:5145
+
+GET {{AO1_DamianoMassimo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
