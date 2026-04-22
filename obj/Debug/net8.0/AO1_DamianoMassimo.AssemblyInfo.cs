@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AO1_DamianoMassimo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a45af99e5e48bca89ff0ea24c8fe00efb7bddd19")]
 [assembly: System.Reflection.AssemblyProductAttribute("AO1_DamianoMassimo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AO1_DamianoMassimo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
