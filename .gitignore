@@ -1,1 +1,12 @@
-obj
+# Flutter
+.dart_tool/
+build/
+android/.gradle/
+windows/flutter/ephemeral/
+
+# .NET
+bin/
+obj/
+
+# Archivos pesados
+*.pdb
