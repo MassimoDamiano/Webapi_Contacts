@@ -16,14 +16,6 @@ public class ContactoController : ControllerBase
         _service = service;
     }
 
-    // POST: api/contacto/add
-    [HttpPost("add")]
-    public ActionResult<Contacto> Crear(Contacto contacto)
-    {
-        var nuevo = _service.Crear(contacto);
-
-        return CreatedAtAction(nameof(ObtenerPorId), new { id = nuevo.Id }, nuevo);
-    }
 
     
     // Obtener todos
@@ -47,6 +39,18 @@ public ActionResult<Contacto> ObtenerPorId(int id)
 
     return Ok(contacto);
 }
+
+
+    // POST: api/contacto/add
+    [HttpPost("add")]
+    public ActionResult<Contacto> Crear(Contacto contacto)
+    {
+        var nuevo = _service.Crear(contacto);
+
+        return CreatedAtAction(nameof(ObtenerPorId), new { id = nuevo.Id }, nuevo);
+    }
+
+
 
     // PUT: api/contacto/edit/{id}
     [HttpPut("edit/{id}")]
